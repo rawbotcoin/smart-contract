@@ -1,0 +1,33 @@
+{
+  "name": "rawbot",
+  "version": "1.0.0",
+  "description": "[![N|Solid](http://rawbot.org/img/rawbot_logo_colored.png)](http://rawbot.org)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawbotcoin/rawbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawbotcoin/rawbot/issues"
+  },
+  "homepage": "https://github.com/rawbotcoin/rawbot#readme",
+  "dependencies": {
+    "ethereum-bridge": "^0.6.1",
+    "semver": "^5.5.1",
+    "solidity-docgen": "^0.1.0",
+    "solium": "^1.1.8",
+    "solmd": "^0.3.0",
+    "truffle-hdwallet-provider": "0.0.6"
+  },
+  "devDependencies": {
+    "@digix/doxity": "^0.5.2"
+  }
+}
